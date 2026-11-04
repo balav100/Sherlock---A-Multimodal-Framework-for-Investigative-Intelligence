@@ -1,0 +1,45 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Evidence and private case data
+case_storage/
+evidence/
+uploads/
+
+# Generated indexes and processing data
+investigation_indexes/
+*.faiss
+chunks.json
+*.pkl
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+models/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
